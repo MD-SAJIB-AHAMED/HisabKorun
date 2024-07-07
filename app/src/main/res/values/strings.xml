@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">হিসাব করুন</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="underweight">আপনার ওজন কম, ওজন বাড়ান</string>
+    <string name="normal">আপনার BMI একদম ঠিক আছে</string>
+    <string name="overweight">আপনার ওজন বেশি, ওজন কমাইতে হবে</string>
+    <string name="obesity">আপনার ওজন অনেক বেশি, ওজন কমান</string>
+</resources>
