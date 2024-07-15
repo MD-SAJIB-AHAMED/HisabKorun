@@ -42,7 +42,18 @@ public class bmi_calculator extends AppCompatActivity {
                 String weightValue = String.valueOf(weight.getText());
 
                 if (feetValue.isEmpty() || inchValue.isEmpty() || weightValue.isEmpty()) {
-                    Toast.makeText(getApplicationContext(),"",Toast.LENGTH_LONG).show();
+                    if(feetValue.isEmpty()){
+                        feet.setError("Enter Your Height in a feet");
+                    }
+                    if(inchValue.isEmpty()){
+                        inch.setError("Enter Your Height in a inch");
+                    }
+                    if(weightValue.isEmpty()){
+                        weight.setError("Enter Your Weight");
+                    }
+
+
+                    Toast.makeText(getApplicationContext(),"Fill the gap",Toast.LENGTH_LONG).show();
                 }
                 else {
 
